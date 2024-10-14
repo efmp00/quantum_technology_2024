@@ -124,12 +124,6 @@ C5_50dbm_std = C5_50dbm_combined.std()
 print(f"Mean Photon Count Rate for C5 at 0.5 dBm: {C5_50dbm_mean}")
 print(f"Standard Deviation of Photon Count Rate for C5 at 0.5 dBm: {C5_50dbm_std}")
 
-# Files 0.72 dbm
-data_72dbm_1 = read_csv('2024-09-10--06-05-51_850nm_72dbm_1.txt', sep = '\t')
-data_72dbm_2 = read_csv('2024-09-10--06-09-13-850nm_72dbm_2.txt', sep = '\t')
-data_72dbm_3 = read_csv('2024-09-10--06-11-850nm_72dbm_3.txt', sep = '\t')
-data_72dbm_4 = read_csv('2024-09-10--06-15-09-850nm_72dbm_4.txt', sep = '\t')
-
 # Data
 C5_72dbm_1 = data_72dbm_1["C4"]
 C5_72dbm_2 = data_72dbm_2["C4"]
@@ -145,12 +139,6 @@ C5_72dbm_std = C5_72dbm_combined.std()
 print(f"Mean Photon Count Rate for C5 at 0.72 dBm: {C5_72dbm_mean}")
 print(f"Standard Deviation of Photon Count Rate for C5 at 0.72 dBm: {C5_72dbm_std}")
 
-# Files 0.968 dbm
-data_968dbm_1 = read_csv('2024-09-10--06-18-56-850nm_968dbm_1.txt', sep = '\t')
-data_968dbm_2 = read_csv('2024-09-10--06-20-45-850nm_968dbm_2.txt', sep = '\t')
-data_968dbm_3 = read_csv('2024-09-10--06-22-42-850nm_968dbm_3.txt', sep = '\t')
-data_968dbm_4 = read_csv('2024-09-10--06-28-27-850nm_968dbm_4.txt', sep = '\t')
-
 # Data
 C5_968dbm_1 = data_968dbm_1["C4"]
 C5_968dbm_2 = data_968dbm_2["C4"]
@@ -165,12 +153,6 @@ C5_968dbm_mean = C5_968dbm_combined.mean()
 C5_968dbm_std = C5_968dbm_combined.std()
 print(f"Mean Photon Count Rate for C5 at 0.968 dBm: {C5_968dbm_mean}")
 print(f"Standard Deviation of Photon Count Rate for C5 at 0.968 dBm: {C5_968dbm_std}")
-
-# Files 1.204 dbm
-data_1204dbm_1 = read_csv('2024-09-10--06-30-45-850nm_1204dbm_1.txt', sep = '\t')
-data_1204dbm_2 = read_csv('2024-09-10--06-32-37-850nm_1204dbm_2.txt', sep = '\t')
-data_1204dbm_3 = read_csv('2024-09-10--06-34-56-850nm_1204dbm_3.txt', sep = '\t')
-data_1204dbm_4 = read_csv('2024-09-10--06-36-31-850nm_1204dbm_4.txt', sep = '\t')
 
 # Data
 C5_1204dbm_1 = data_1204dbm_1["C4"]
@@ -205,12 +187,6 @@ C8_50dbm_std = C8_50dbm_combined.std()
 print(f"Mean Photon Count Rate for C8 at 0.5 dBm: {C8_50dbm_mean}")
 print(f"Standard Deviation of Photon Count Rate for C8 at 0.5 dBm: {C8_50dbm_std}")
 
-# Files 0.72 dbm
-data_72dbm_1 = read_csv('2024-09-10--06-05-51_850nm_72dbm_1.txt', sep = '\t')
-data_72dbm_2 = read_csv('2024-09-10--06-09-13-850nm_72dbm_2.txt', sep = '\t')
-data_72dbm_3 = read_csv('2024-09-10--06-11-850nm_72dbm_3.txt', sep = '\t')
-data_72dbm_4 = read_csv('2024-09-10--06-15-09-850nm_72dbm_4.txt', sep = '\t')
-
 # Data
 C8_72dbm_1 = data_72dbm_1["C7"]
 C8_72dbm_2 = data_72dbm_2["C7"]
@@ -226,12 +202,6 @@ C8_72dbm_std = C8_72dbm_combined.std()
 print(f"Mean Photon Count Rate for C8 at 0.72 dBm: {C8_72dbm_mean}")
 print(f"Standard Deviation of Photon Count Rate for C8 at 0.72 dBm: {C8_72dbm_std}")
 
-# Files 0.968 dbm
-data_968dbm_1 = read_csv('2024-09-10--06-18-56-850nm_968dbm_1.txt', sep = '\t')
-data_968dbm_2 = read_csv('2024-09-10--06-20-45-850nm_968dbm_2.txt', sep = '\t')
-data_968dbm_3 = read_csv('2024-09-10--06-22-42-850nm_968dbm_3.txt', sep = '\t')
-data_968dbm_4 = read_csv('2024-09-10--06-28-27-850nm_968dbm_4.txt', sep = '\t')
-
 # Data
 C8_968dbm_1 = data_968dbm_1["C7"]
 C8_968dbm_2 = data_968dbm_2["C7"]
@@ -246,12 +216,6 @@ C8_968dbm_mean = C8_968dbm_combined.mean()
 C8_968dbm_std = C8_968dbm_combined.std()
 print(f"Mean Photon Count Rate for C8 at 0.968 dBm: {C8_968dbm_mean}")
 print(f"Standard Deviation of Photon Count Rate for C8 at 0.968 dBm: {C8_968dbm_std}")
-
-# Files 1.204 dbm
-data_1204dbm_1 = read_csv('2024-09-10--06-30-45-850nm_1204dbm_1.txt', sep = '\t')
-data_1204dbm_2 = read_csv('2024-09-10--06-32-37-850nm_1204dbm_2.txt', sep = '\t')
-data_1204dbm_3 = read_csv('2024-09-10--06-34-56-850nm_1204dbm_3.txt', sep = '\t')
-data_1204dbm_4 = read_csv('2024-09-10--06-36-31-850nm_1204dbm_4.txt', sep = '\t')
 
 # Data
 C8_1204dbm_1 = data_1204dbm_1["C7"]
