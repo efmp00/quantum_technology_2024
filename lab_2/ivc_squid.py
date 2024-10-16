@@ -1,10 +1,11 @@
 # Libraries
-import numpy as np
-from pandas import *
-import matplotlib.pyplot as plt
-from matplotlib import colors as mcolors
-from scipy.optimize import curve_fit
 import os
+import numpy as np
+import matplotlib.pyplot as plt
+#
+from pandas import *
+from scipy.optimize import curve_fit
+from matplotlib import colors as mcolors
 
 # Plot parameters
 plt.rcParams.update({
@@ -16,6 +17,14 @@ plt.rcParams.update({
     'axes.grid': True,        # grid
     'grid.linestyle': "-.",   # grid style
 })
+
+# Files
+data_ivc = read_csv('SDS00002.csv')
+
+# Physical parameters
+Rb = 10           # resistence    (Ω)
+V1_gain = 1e4     # voltage gain  (V)
+V2_gain = 1e3     # voltage gain  (V)
 
 # Files
 data_ivc = read_csv('SDS00002.csv')
@@ -77,7 +86,6 @@ plt.xlabel(r"Voltage ($\mu \mathrm{V}$)")
 plt.ylabel(r"Current ($\mu \mathrm{A})$")
 plt.legend(loc = 'upper left', borderpad = 0.2)
 #
-plt.suptitle(r'Results from the first experiment', size = 24)
 plt.tight_layout()
 plt.gcf()
 plt.savefig('first_experiment.pdf')
