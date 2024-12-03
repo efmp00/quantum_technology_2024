@@ -3,7 +3,7 @@ Repository where I upload the code I used to analyze data and visualize experime
 - [x] Superconducting Nanowire Single-Photon Detectors.
 - [x] Superconducting Quantum Interference Devices.
 - [x] Quantized Conductance.
-- [ ] Optical continuous variable squeezed light.
+- [x] Optical continuous variable squeezed light.
 - [ ] Quantum Erasure.
 
 > [!NOTE]
