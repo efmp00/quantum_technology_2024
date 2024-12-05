@@ -1,0 +1,34 @@
+﻿Optical Power Monitor 5.0.4590.776,,,
+,,,
+Power Meter;PM100USB,,,
+Power Meter SN;1909638,,,
+Sensor;S145C,,,
+Sensor SN;240131316,,,
+Sensor Type;Photodiode,,,
+Wavelength;1550 nm,,,
+Range;Auto;range changed during the measurement.,,,
+,,,
+Start of Measurement;11/18/2024 13:48:42,,,
+Elapsed Time;00:04:59:998,,,
+Samples;95704,,,
+,,,
+Power,,,
+Min.(W);Max.(W);Percentage(%);Count,,,
+,,,
+0,57882;0,58046;5,5;5224
+0,58046;0,58209;6,7;6405
+0,58209;0,58373;4,6;4375
+0,58373;0,58537;5,2;4996
+0,58537;0,58701;17,7;16918
+0,58701;0,58864;14,5;13877
+0,58864;0,59028;12,4;11863
+0,59028;0,59192;12,9;12383
+0,59192;0,59355;9,3;8914
+0,59355;0,59519;11,2;10749
+,,,
+--Statistics--,,,
+Minimum [W];0,57882,,
+Maximum [W];0,59519,,
+Mean [W];0,58808,,
+Standard Deviation [W];0,41311,,
+Ratio;1,028 : 1,,
