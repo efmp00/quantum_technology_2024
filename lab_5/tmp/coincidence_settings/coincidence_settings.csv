@@ -1,0 +1,7 @@
+delay_true_coincidences,delay_accidental_coincidences,width_coincidence_window,b_and_t_coincidence_rate,t_detection_rate,b_detection_rate,accidental_b_and_t_coincidence_rate,accidental_t_rate,accidental_b_rate,expected_accidental_coincidence_rate,snr
+-2.25,-22.25,1,354.5,165185.2,5017.3,0.4,165098.4,5062.8,0.8,885.3
+,,2,642.1,165086.6,4993.8,2.2,165327.3,5102.3,1.7,290.9
+,,3,800.2,165198.1,4984.7,2.5,165231.6,5144,2.5,319.1
+,,4,872.7,165128.1,5020.1,3.7,165367.3,5216.8,3.5,234.9
+,,5,898.1,164982.1,5016.6,4,165018.7,5117,4.2,223.5
+,,6,891,165154.2,5057.4,5.1,165148.1,5136.9,5.1,173.7
