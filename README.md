@@ -4,7 +4,7 @@ Repository where I upload the code I used to analyze data and visualize experime
 - [x] Superconducting Quantum Interference Devices.
 - [x] Quantized Conductance.
 - [x] Optical continuous variable squeezed light.
-- [ ] Quantum Erasure.
+- [x] Quantum Erasure.
 
 > [!NOTE]
-> The code uploaded in this repository is mainly written in Python 3.10.12. 
+> The code uploaded in this repository is mainly written in Python 3.10.12.
